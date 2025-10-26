@@ -1,0 +1,2 @@
+-- Placeholder for seed data or extensions.
+-- Example: CREATE EXTENSION IF NOT EXISTS "uuid-ossp";

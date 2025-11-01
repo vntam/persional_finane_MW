@@ -1,13 +1,7 @@
-import { AppRoutes } from './routes';
-import AppLayout from './layouts/AppLayout';
+import { AppRouter } from './app/router';
 
-// Root component wires layout + feature routes. Keep logic minimal here.
 function App() {
-  return (
-    <AppLayout>
-      <AppRoutes />
-    </AppLayout>
-  );
+  return <AppRouter />;
 }
 
 export default App;
